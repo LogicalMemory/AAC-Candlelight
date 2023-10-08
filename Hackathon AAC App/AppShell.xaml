@@ -7,13 +7,20 @@
     Shell.FlyoutBehavior="Disabled">
 
     <TabBar>
-        <Tab Title="TextToSpeech">
-            <ShellContent ContentTemplate="{DataTemplate local:TextToSpeechPage}" Route="textToSpeech"/>
+        <Tab Title="TextToSpeech"
+             Icon="speaker.svg">
+            <ShellContent 
+                ContentTemplate="{DataTemplate local:TextToSpeechPage}" 
+                Route="textToSpeech"/>
         </Tab>
-        <Tab Title="Buttons">
-            <ShellContent ContentTemplate="{DataTemplate local:ButtonsPage}" Route="buttons"/>
+        <Tab Title="Buttons"
+             Icon="button.svg">
+            <ShellContent 
+                ContentTemplate="{DataTemplate local:ButtonsPage}" 
+                Route="buttons"/>
         </Tab>
-        <Tab Title="Settings">
+        <Tab Title="Settings"
+             Icon="settings.svg">
             <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" Route="setting"/>
         </Tab>
     </TabBar>

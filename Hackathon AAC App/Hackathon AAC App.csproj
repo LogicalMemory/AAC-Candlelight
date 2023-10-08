@@ -49,8 +49,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\button.svg" />
 	  <None Remove="Resources\Images\LongCandle.JPG" />
+	  <None Remove="Resources\Images\settings.svg" />
 	  <None Remove="Resources\Images\SmallCandle.JPG" />
+	  <None Remove="Resources\Images\speaker.svg" />
 	  <None Remove="resources\raw\WordButtons.txt" />
 	</ItemGroup>
 
