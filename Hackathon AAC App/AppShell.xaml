@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Hackathon_AAC_App.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Hackathon_AAC_App"
+    Shell.FlyoutBehavior="Disabled">
+
+    <TabBar>
+        <Tab Title="TextToSpeech">
+            <ShellContent ContentTemplate="{DataTemplate local:TextToSpeechPage}" Route="textToSpeech"/>
+        </Tab>
+        <Tab Title="Buttons">
+            <ShellContent ContentTemplate="{DataTemplate local:ButtonsPage}" Route="buttons"/>
+        </Tab>
+        <Tab Title="Settings">
+            <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" Route="setting"/>
+        </Tab>
+    </TabBar>
+
+
+</Shell>

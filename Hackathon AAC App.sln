@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hackathon AAC App", "Hackathon AAC App\Hackathon AAC App.csproj", "{9D267B91-A431-4BA6-BCCD-1BBDF4200D9D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AcrylicView", "..\AcrylicView.MAUI-master\AcrylicView.MAUI-master\AcrylicView\AcrylicView.csproj", "{A3656C0F-B5D8-4F51-8F42-098D0559E5FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D267B91-A431-4BA6-BCCD-1BBDF4200D9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D267B91-A431-4BA6-BCCD-1BBDF4200D9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D267B91-A431-4BA6-BCCD-1BBDF4200D9D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9D267B91-A431-4BA6-BCCD-1BBDF4200D9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D267B91-A431-4BA6-BCCD-1BBDF4200D9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D267B91-A431-4BA6-BCCD-1BBDF4200D9D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A3656C0F-B5D8-4F51-8F42-098D0559E5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3656C0F-B5D8-4F51-8F42-098D0559E5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3656C0F-B5D8-4F51-8F42-098D0559E5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3656C0F-B5D8-4F51-8F42-098D0559E5FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D6E75B1-B374-4B8F-89AC-99DAF5250EED}
+	EndGlobalSection
+EndGlobal

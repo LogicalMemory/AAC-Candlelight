@@ -1,0 +1,8 @@
+People(I,me,my,mine,you,your,yours,it,he,him,his,she,her,hers,they,them,theirs)
+Social(yes,no,maybe,please,thank-you,thanks,hi,hello,greetings,good-bye,bye,see-ya)
+Questions(what,where,when,who,why,how)
+Verb(go,stop,turn,make,look,see,find,out,open,close,eat,drink,get,help,want,need,say,tell,come,read,like,love,feel,color,let's,work,play,finished,done)
+Description(one,two,three,lots,more,less,big,little,fast,slow,same,different,pretty,good,bad,new,old,happy,sad,colors(red,blue,yellow,green,purple,orange,magenta,pink,black,white))
+Pointing(it,this,that,some,all,most,few,number(one,two,three,four,five,six,seven,eight,nine,ten))
+Other(be,am,is,are,was,were,do,did,can,have,will,on,off,in,out,up,down,to,for,under,with,and,but,not,don't,now,here,there,away,again)
+Sentence(I like you,you are cool)
