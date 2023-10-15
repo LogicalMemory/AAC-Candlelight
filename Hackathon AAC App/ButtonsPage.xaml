@@ -19,13 +19,14 @@
 
             <CollectionView x:Name="collectionView"
                     ItemsLayout="VerticalGrid, 3" 
-                    HeightRequest="620">
+                    HeightRequest="520">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <Button Text="{Binding word}"
                         Command="{Binding MyCommand}"
                         Margin="2.5"
-                        FontSize="16"/>
+                        FontSize="16"
+                        />
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
